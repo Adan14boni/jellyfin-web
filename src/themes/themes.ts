@@ -6,6 +6,7 @@ import dark from './dark';
 import light from './light';
 import purplehaze from './purplehaze';
 import wmc from './wmc';
+import netflix from './netflix';
 
 declare module '@mui/material/styles' {
     interface Palette {
@@ -23,7 +24,8 @@ const ALL_THEMES = {
     dark,
     light,
     purplehaze,
-    wmc
+    wmc,
+    netflix
 };
 
 /** The default theme if a user has not selected a preferred theme. */
